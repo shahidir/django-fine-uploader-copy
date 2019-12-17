@@ -52,7 +52,7 @@ class FineUploaderWidget(forms.MultipleHiddenInput):
                 'endpoint': reverse('django_fine_uploader:delete'),
             },
             'chunking': {
-                'enabled': True,
+                'enabled': False,
                 'concurrent': {
                     'enabled': True
                 },
